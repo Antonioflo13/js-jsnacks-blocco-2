@@ -11,7 +11,7 @@ var biciclette = [
     },
     biciletta2 = {
         nome: "Wilier Filante SLR",
-        peso: 870
+        peso: 720
     },
     biciletta3 = {
         nome: "Argon 18 Gallium Pro Disc",
@@ -24,8 +24,10 @@ pesoBiciclette = [];
 for (i=0; i < biciclette.length; i++) {
     pesoBiciclette.push(biciclette[i].peso);
     pesoBiciclette.sort();
+    if (pesoBiciclette[0] == biciclette[i].peso) {
+        console.log(biciclette[i]);
+    }
 }
 
-console.log(pesoBiciclette[0]);
 
 
