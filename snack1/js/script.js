@@ -7,15 +7,15 @@ var biciclette = [
 
     biciletta1 = {
         nome: "Tarmac SL7",
-        peso: 800
+        peso: 120
     },
     biciletta2 = {
         nome: "Wilier Filante SLR",
-        peso: 720
+        peso: 130
     },
     biciletta3 = {
         nome: "Argon 18 Gallium Pro Disc",
-        peso: 760
+        peso: 20
     }
 
 ];
@@ -28,6 +28,7 @@ for (i=0; i < biciclette.length; i++) {
         console.log(biciclette[i]);
     }
 }
+
 
 
 

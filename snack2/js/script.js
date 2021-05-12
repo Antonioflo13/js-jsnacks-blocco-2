@@ -29,14 +29,15 @@ var squadre = [
         falli: 0
     }
 ];
+
 rapportoSquadraFalli = [];
+
 for (i=0; i<squadre.length; i++) {
-    squadre[i].punti = randomNumber(1,15),rapportoSquadraFalli.push(squadre[i].nome);
-    
-    squadre[i].falli = randomNumber(1,20), rapportoSquadraFalli.push("Falli " + squadre[i].falli);
+    squadre[i].punti = randomNumber(1,15)
+    rapportoSquadraFalli.push(squadre[i].nome);
+    squadre[i].falli = randomNumber(1,20);
+    rapportoSquadraFalli.push("Falli " + squadre[i].falli);
 }
 
 console.log(squadre);
 console.log(rapportoSquadraFalli); 
-
-

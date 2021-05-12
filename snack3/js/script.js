@@ -13,8 +13,8 @@ function ristampa (array, numPiccolo, numGrande) {
     return nuovoArray;
 }
 
-var array = [1,2,3,4,5,6,7,9];
+var array = [1,2,3,4,5,6,7,9, "Luca", "Giuseppe"];
 var a = 2;
-var b = 7;
+var b = 9;
 console.log(array);
 console.log(ristampa(array, a, b));
